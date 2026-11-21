@@ -1,0 +1,20 @@
+IP: 110.44.118.244 (IPv4)
+Country: Nepal (NP)
+City: Kathmandu
+Region/State: Bagmati Province
+ISP: VIA NET COMMUNICATION LTD (residential ISP)
+ASN: AS45650
+Latitude: 27.7017 N
+Longitude: 85.3206 E
+Timezone: Asia/Kathmandu
+VPN/Proxy detected: NO
+Anycast: No
+Type: Dynamic residential IP (likely home broadband/cable connection)
+Abuse Contact: abuse@vianet.com.np
+Note: This is a local Nepalese ISP serving residential users in the Kathmandu area.  Appears early in the logs with single human-like access.
+
+Likely started probing from a VPS/proxy IP (88.210.11.43 - cheap, annonymous hosting in NL).
+
+Then breifly routed through or tested from a residential connection (110.44.118.244 in Nepal) possibly an early OPSEC slip where the operator used their personal/home setup before switching to full proxy rotation.
+
+Immediately after, the same fingerprint jumps to dozens more VDSINA/SERVERS TECH IPs (and similar hosting ranges) for repetitive hits - classic low-and-slow formprobing / credential testing / reconniassance with IP rotation to avoid blocks.
